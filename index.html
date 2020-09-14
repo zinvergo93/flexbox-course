@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Error Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+            font-family: 'Merriweather', serif;
+        }
+        .error-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .error-wrapper > .error-heading {
+            margin-bottom: 42px;
+        }
+        img {
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hi there</h1>
-
     
+    <div class="error-wrapper">
+        <div class="error-heading">
+            <h2>Yikes...Looks like the page you're looking for isn't available. Would you like to try another?</h2>
+        </div>
+        <img src="images/tbot.png" alt="tbot">
+    </div>
 </body>
 </html>
